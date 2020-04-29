@@ -5,10 +5,55 @@
     background: url("/img/elements/turbosquid_banner.png") round no-repeat;
 }
 
-.btn-blender_a {
-    border: 2px solid #22eaaa;
-    background: #22eaaa;
+.btn.btn-dark {
+    border: 1px solid #c0dbcc62;
+    background: #277527;
     color: #ffffff;
-    background-image: url("/img/elements/blender_a_banner.jpg");
-}
+    font-size: 20px;
+  }
+  
+  .btn.btn-dark:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
+    background: #115c17;
+    color: #ffffff;
+    border: 1px solid rgba(132, 156, 118, 0.953);
+    font-size: 21px;
+  }
+  
+  .btn.btn-dark:focus, .btn.btn-primary:active {
+    outline: none;
+    border: 0px solid #000000;
+  }
 
+  .slides-text_custom {
+    z-index: 99;
+    position: relative;
+    padding-top: 350px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .slides-text_custom h2 {
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 55px;
+    color: #ffffff;
+    text-shadow: rgb(48, 48, 48) 0px 0px 10px;
+    text-transform: uppercase;
+  }
+
+  .slides-text_custom p {
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: rgb(255, 255, 255) 0px 0px 10px;
+    text-transform: uppercase;
+  }
+
+  .slides-text_custom:hover h2, .slides-text_custom:focus h2, .slides-text_custom:active h2{
+    font-weight: 100;
+    font-weight: bold;
+    font-size: 55px;
+    color: #ffffff;
+    text-shadow: rgba(255, 255, 255, 0.075) 0px 0px 10px;
+    text-transform: uppercase;
+  }

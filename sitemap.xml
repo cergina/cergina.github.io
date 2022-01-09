@@ -1,92 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--
- created with Free Online Sitemap Generator www.xml-sitemaps.com 
--->
+
 <url>
-<loc>https://cergina.github.io/</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://cergina.github.io/</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/projects.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://cergina.github.io/m_projects.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/about.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://cergina.github.io/m_games.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/reenactment.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://cergina.github.io/pages/reenactment.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/tortoise.html</loc>
-<lastmod>2020-10-13T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/norwegianSword.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/bonhomme.html</loc>
-<lastmod>2020-10-13T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/whiteBrig.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/shiphelm.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/tortoise.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/cannon.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/bonhomme.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/sword.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/bells.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/viking.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/boat.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/ww2.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/lamp.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/t34.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/shiphelm.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/lego.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/cannon.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/broche.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/sword.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/brig.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/viking.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/owncar.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/ww2.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://cergina.github.io/pages/cars.html</loc>
-<lastmod>2020-05-02T00:25:15+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://cergina.github.io/pages/threeD/t34.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+<url>
+  <loc>https://cergina.github.io/pages/threeD/lego.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cergina.github.io/pages/threeD/broche.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cergina.github.io/pages/threeD/brig.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cergina.github.io/pages/threeD/owncar.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cergina.github.io/pages/threeD/cars.html</loc>
+  <lastmod>2022-01-09T00:28:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>

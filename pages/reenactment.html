@@ -97,28 +97,116 @@
           <p>
             Materials used for accessories: "leather, iron, steel, silver"
           </p>
-          <p>
-               <img src="/img/medieval/IMG_0848_2.jpg" /> 
-               <img src="/img/medieval/IMG_0856_2.jpg" /> 
-               <img src="/img/medieval/Z6R_4447.jpg" /> 
-               <img src="/img/medieval/Z6R_4456.jpg" /> 
-               <img src="/img/medieval/Z6R_4929.jpg" /> 
-          </p>
+          
+          <div class="lorem-div fly-in">
+            <img src="/img/medieval/IMG_0848_2.jpg" /> 
+          </div>
+          <div class="lorem-div fly-in">
+            <img src="/img/medieval/IMG_0856_2.jpg" />
+          </div>
+          <div class="lorem-div fly-in">
+            <img src="/img/medieval/Z6R_4447.jpg" />
+          </div>
+          <div class="lorem-div fly-in">
+            <img src="/img/medieval/Z6R_4456.jpg" /> 
+          </div>
+          <div class="lorem-div fly-in">
+            <img src="/img/medieval/Z6R_4929.jpg" /> 
+          </div>
+          
         </div>
       </div>
     </div>
+
+    <div class="scroll-indicator down">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="scroll-indicator up">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
   </section>
 
-  <!-- END section cta -->
-  <!-- END section -->
-  <!-- END section -->
+    <!-- END section cta -->
+    <!-- END section -->
+    <!-- END section -->
 
-  <div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
-  </div>
-  <script src="/js/scripts.min.js"></script>
-  <script src="/js/main.min.js"></script>
-  <script src="/js/custom.js"></script>
+    <div class="gototop js-top">
+      <a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+    </div>
+    <script src="/js/scripts.min.js"></script>
+    <script src="/js/main.min.js"></script>
+    <script src="/js/custom.js"></script>
 
+    <script>
+      function isInViewport(element) {
+        var bounding = element.getBoundingClientRect();
+        var topThreshold = 0; // Adjust the threshold as needed
+
+        return (
+            bounding.top >= topThreshold &&
+            bounding.top <= (window.innerHeight || document.documentElement.clientHeight)
+        );
+      }
+      
+      function flyInElementsOnScroll() {
+          var flyInElements = document.querySelectorAll('.fly-in');
+          
+          for (var i = 0; i < flyInElements.length; i++) {
+              var flyInElement = flyInElements[i];
+              
+              if (isInViewport(flyInElement)) {
+                  flyInElement.classList.add('fly-in-active');
+              } else {
+                  flyInElement.classList.remove('fly-in-active');
+              }
+          }
+      }
+      
+      function showScrollIndicator() {
+          var scrollIndicators = document.querySelectorAll('.scroll-indicator');
+          var scrollY = window.scrollY;
+          var windowHeight = window.innerHeight;
+          var documentHeight = document.documentElement.scrollHeight;
+          
+          for (var i = 0; i < scrollIndicators.length; i++) {
+              var scrollIndicator = scrollIndicators[i];
+              var scrollDirection = scrollIndicator.classList.contains('down') ? 'down' : 'up';
+              
+              if (
+                  (scrollDirection === 'down' && scrollY + windowHeight < documentHeight) ||
+                  (scrollDirection === 'up' && scrollY > 0)
+              ) {
+                  scrollIndicator.classList.add('show-scroll-indicator');
+              } else {
+                  scrollIndicator.classList.remove('show-scroll-indicator');
+              }
+          }
+      }
+      
+      window.addEventListener('scroll', function() {
+          flyInElementsOnScroll();
+          showScrollIndicator();
+      });
+      
+      window.addEventListener('load', function() {
+          flyInElementsOnScroll();
+          showScrollIndicator();
+      });
+      
+      window.addEventListener('mousedown', function(event) {
+          if (event.button === 1) {
+              event.preventDefault();
+              window.scrollBy({
+                  top: window.innerHeight,
+                  behavior: 'smooth'
+              });
+          }
+      });
+  </script>
   </body>
 </html>

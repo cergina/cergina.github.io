@@ -57,3 +57,93 @@
     text-shadow: rgba(255, 255, 255, 0.075) 0px 0px 10px;
     text-transform: uppercase;
   }
+
+  body {
+    height: 2000px; /* Adjust the height as per your needs */
+    position: relative;
+}
+
+.fly-in {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.fly-in.fly-in-active {
+    opacity: 1;
+}
+
+.lorem-div {
+    margin: 50px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.scroll-indicator {
+    position: fixed;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.scroll-indicator span {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #817878;
+    margin-bottom: 8px;
+}
+
+.scroll-indicator.down {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.scroll-indicator.up {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.show-scroll-indicator {
+    opacity: 1;
+}
+
+@keyframes flyInAnimation {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes flyOutAnimation {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}
+
+.fly-out-active {
+    animation: flyOutAnimation 1.5s ease-in-out forwards;
+}
